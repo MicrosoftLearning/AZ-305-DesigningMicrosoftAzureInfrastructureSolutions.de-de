@@ -9,11 +9,11 @@ casestudy:
 
 ## Anforderungen
 
-Tailwind Traders geht es sehr gut, und das Unternehmen erweitert seine Belegschaft. Sie haben erfolgreich einen Online-Händler im Sportbekleidungsbereich übernommen. Das Unternehmen hat auch einen Partner zur Auslagerung von Marketingliteratur gefunden. Tailwind Traders verwendet Azure Active Directory für Benutzer- und Gruppenkonten. Hier sind zwei spezifische Initiativen, bei denen die IT-Abteilung gerne Ihre Unterstützung hätte. 
+Tailwind Traders geht es sehr gut, und das Unternehmen erweitert seine Belegschaft. Sie haben erfolgreich einen Online-Händler im Sportbekleidungsbereich übernommen. Das Unternehmen hat auch einen Partner zur Auslagerung von Marketingliteratur gefunden. Tailwind Traders verwendet Entra-ID für Benutzer- und Gruppenkonten. Hier sind zwei spezifische Initiativen, bei denen die IT-Abteilung gerne Ihre Unterstützung hätte. 
 
 **Neue Benutzerkonten**
 
-  * Durch die Übernahme des Online-Händlers wird Tailwind Traders um 75 Mitarbeiter*innen erweitert. Alle neuen Benutzer*innen haben lokale Active Directory-Domänendienste-Konten in der bestehenden Domäne des Einzelhändlers.
+  * Durch die Übernahme des Online-Händlers wird Tailwind Traders um 75 Mitarbeiter*innen erweitert. Alle neuen Benutzenden haben lokale Konten in der bestehenden Domäne des Einzelhändlers.
 
   * Der neue Marketingpartner verfügt zunächst über 15 Mitarbeiter*innen, die Unternehmenszugriff benötigen. Diese Mitarbeiter*innen verfügen bereits über Microsoft Entra-Identitäten im Microsoft Entra-Mandanten des Partners.  
 
