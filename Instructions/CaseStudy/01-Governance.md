@@ -18,7 +18,7 @@ Tailwind Traders plant, einige wichtige Änderungen an seiner Governancelösung 
 
 1. **Kosten und Buchhaltung** 
 
-    * Wie kann Tailwind Traders seine Abonnements und Verwaltungsgruppen organisieren? Was wäre das Beste, um seine Anforderungen zu erfüllen? 
+    * Wie kann Tailwind Traders seine Abonnements und Verwaltungsgruppen organisieren? Was wäre das Beste, um ihre Anforderungen zu erfüllen? 
 
     * Entwerfen Sie zwei alternative Hierarchien, und erläutern Sie Ihren Entscheidungsprozess.
 
