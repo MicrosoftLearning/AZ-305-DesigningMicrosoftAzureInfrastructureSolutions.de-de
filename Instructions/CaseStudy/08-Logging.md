@@ -23,11 +23,11 @@ Die Fabrikam-Zentrale betreibt ein kleines Rechenzentrum an einem einzigen Ort. 
 
 ![Projektmanagementsoftware-Architektur](media/fabrikam.png)
 
-- Die PM-Software verwendet eine Windows-Anwendung eines Drittanbieters. Die Anwendung läuft auf einem 2-Knoten-Netzwerklastenausgleichs-Cluster (NLB) mit einem einzigen Microsoft SQL Server-Back-End.  
+- Die PM-Software verwendet eine Windows-Anwendung eines Drittanbieters. Die Anwendung wird auf einem 2-Knoten-Network-Load Balancing (NLB) mit einem einzelnen Microsoft SQL Server-Back-End ausgeführt.  
 
-- Bilder und Dokumente werden auf einem zugeordneten Laufwerk des Servers gespeichert, das sich auf einer speziellen NAS-Appliance befindet.
+- Bilder und Dokumente werden auf einem zugeordneten Laufwerk des Servers gespeichert, das sich auf einem dedizierten NAS-Anwendung befindet.
 
-- Unternehmensbenutzer*innen und Büromitarbeiter*innen verwenden ein Web-Front-End, um Daten wie Lieferzeitpläne und Änderungsaufträge einzugeben.
+- Unternehmensbenutzer, Büromitarbeiter*innen, verwenden ein Web-Front-End, um Daten wie Lieferzeitpläne und Änderungsaufträge einzugeben.
 
 -   Die Bauleiter*innen vor Ort verwenden Windows-Laptops und Tablets offline, um den Baufortschritt und andere Details kontinuierlich zu erfassen.  Diese Änderungen, z. B. neue Arbeitsaufträge, werden in einer lokalen Änderungsdatei gespeichert.  Am Ende eines jeden Tages kehren die Bauleiter*innen ins Büro zurück, verbinden sich mit dem drahtlosen Netzwerk und führen ein kleines Skript aus, um die Änderungsdatei auf einen FTP-Server hochzuladen.  Ein zweites Skript wird jede Nacht ausgeführt, um alle Änderungsdateien zu verarbeiten und ihren Inhalt in die Projektmanagemendatenbank (Microsoft SQL Server) einzugeben.
 
